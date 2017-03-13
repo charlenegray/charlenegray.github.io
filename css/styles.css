@@ -3,6 +3,33 @@ img {
  width: auto;
 }
 
+li {
+  list-style: none;
+}
+
+/* LVHFA */ 
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: #3e9195;
+}
+
+a:hover{
+  background: #e0e0e0;
+  color: black;
+  transition: background 1s;
+}
+
+a:focus {
+  background: teal;
+  border: 1px solid red; 
+}
+
+a:active {
+  background: gray;
+}
 
 /* Media Queries */  
 
