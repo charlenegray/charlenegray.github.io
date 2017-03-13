@@ -4,31 +4,57 @@ img {
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
-/* LVHFA */ 
-a:link {
-  color: red;
-  text-decoration: none;
-}
-a:visited {
-  color: #3e9195;
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+
+body {
+ padding: 25px; 
+ font-family: 'Poiret One', cursive;
+
 }
 
-a:hover{
-  background: #e0e0e0;
-  color: black;
-  transition: background 1s;
+nav ul {
+  display: flex; 
 }
 
-a:focus {
-  background: teal;
-  border: 1px solid red; 
+.nav ul {
+  float: left; 
 }
 
-a:active {
-  background: gray;
+nav > ul a {
+  display: block; 
+  padding: 12px 18px; 
+  text-decoration: none; 
+  color: #3e6264; 
+  border-bottom: 1px solid #eee;
+  transition: all ease .5s;
+}
+
+nav:hover > ul a {
+  opacity: .5;
+  transition: all ease .5s;
+}
+
+.nav > ul:hover a {
+  opacity: 1;
+  color: #777777;
+  border-color: #263f40;
+}
+
+figure {
+  background: wheat;
+  border-radius: 5px; 
+  color: grey; 
+  padding: .5em;
+  width: 200px;
+}
+
+main {
+  display: flex; 
+  flex-wrap: wrap;
 }
 
 /* Media Queries */  
