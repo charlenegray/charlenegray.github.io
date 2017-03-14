@@ -1,6 +1,19 @@
-img {
- height: 200px;
- width: auto;
+#barn {
+    width: 100%;
+}
+
+#cover-photo {}
+
+.thumbnail {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+figure img {
+    position: absolute;
+    width: 200px;
 }
 
 li {
@@ -8,86 +21,87 @@ li {
 }
 
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
-
-
 body {
- padding: 25px; 
- font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One', cursive;
+}
 
+#center {
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+#logo {
+    height: 100px;
+    margin: 0 auto;
 }
 
 nav ul {
-  display: flex; 
+    display: flex;
 }
 
 .nav ul {
-  float: left; 
+    float: left;
 }
 
-nav > ul a {
-  display: block; 
-  padding: 12px 18px; 
-  text-decoration: none; 
-  color: #3e6264; 
-  border-bottom: 1px solid #eee;
-  transition: all ease .5s;
+nav a {
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #3e6264;
+    border-bottom: 1px solid #eee;
+    transition: all ease .5s;
 }
 
-nav:hover > ul a {
-  opacity: .5;
-  transition: all ease .5s;
+nav a:hover {
+    opacity: .5;
+    transition: all ease .5s;
 }
 
 .nav > ul:hover a {
-  opacity: 1;
-  color: #777777;
-  border-color: #263f40;
+    opacity: 1;
+    color: #777777;
+    border-color: #263f40;
 }
 
 figure {
-  background: wheat;
-  border-radius: 5px; 
-  color: grey; 
-  padding: .5em;
-  width: 200px;
+    background: wheat;
+    border-radius: 5px;
+    color: grey;
+    padding: .5em;
+    width: 200px;
 }
 
 main {
-  display: flex; 
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-/* Media Queries */  
+
+/* Media Queries */
+
 
 /* Mobile: 320px = 20em */
-@media screen and (min-width: 20em) { 
 
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Mobile Size";
-  }
-  
+@media screen and (min-width: 20em) {
+    /* Diagnostic Styling. Delete When Done. */
 }
+
 
 /* Tablet:  768px = 160em */
-@media screen and (min-width: 48em)  {
 
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Tablet Size";
-  }
-
+@media screen and (min-width: 48em) {
+    /* Diagnostic Styling. Delete When Done. */
 }
 
-/* Desktop: 1280px = 80em */
-@media screen and (min-width: 80em) { 
-  
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Desktop Size";
-  }
 
+/* Desktop: 1280px = 80em */
+
+@media screen and (min-width: 80em) {
+    /* Diagnostic Styling. Delete When Done. */
 }
