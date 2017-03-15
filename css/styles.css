@@ -87,7 +87,7 @@ input[type=submit] {
 }
 
 
-#logo {
+#logo, nav {
     height:130px;
     margin: 0 auto;
     justify-content: center;
