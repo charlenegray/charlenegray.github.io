@@ -11,26 +11,26 @@
 	filter: grayscale(100%) blur(0px); 
 }
 
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Lato:300|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Neuton');
 
 #cover-photo {}
 
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Neuton', serif;
 }
 
 h1 {
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Neuton', serif;
     font-size: 3em;
 }
 
 h2 {
-font-family: 'Lato', sans-serif; 
+font-family: 'Neuton', serif;
 font-size: 2em;
 }
 
 h4 {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Neuton', serif;
     color: darkslategray;
     font-size: 1.6em;
 }
