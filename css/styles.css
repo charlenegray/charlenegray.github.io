@@ -46,10 +46,6 @@ port {
     margin: 16m; 
 }
 
-header {
-    display: inline-flex;
-}
-
 figure img {
     width: 200px;
 	-webkit-filter: grayscale(0) blur(0);
@@ -89,10 +85,15 @@ input[type=submit] {
     -ms-align-items: center;
     align-items: center;
 }
+
+
 #logo {
-    height: 100px;
+    height:130px;
     margin: 0 auto;
+    justify-content: center;
+    display: flex; 
 }
+
 nav ul {
     display: flex;
 }
