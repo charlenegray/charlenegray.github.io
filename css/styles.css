@@ -9,7 +9,7 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.thumbnail {
+.port {
     width: 200px;
     height: 200px;
     position: relative;
@@ -74,10 +74,10 @@ nav a:hover {
     border-color: #263f40;
 }
 figure {
-    background: wheat;
+    background: none;
     border-radius: 5px;
     color: grey;
-    padding: .5em;
+    padding: 1em;
     width: 200px;
 }
 main {
