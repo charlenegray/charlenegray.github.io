@@ -22,21 +22,30 @@ header {
 
 figure img {
     width: 200px;
+	-webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+figure img:hover {
+	-webkit-filter: grayscale(100%) blur(1px);
+	filter: grayscale(100%) blur(1px);
 }
 
 li {
     list-style: none;
 }
 
-form {
-  background: #ccc;
-  width: 400px;
-}
-
 label,
 input {
   display: block;
   width: auto;
+    margin: 1em; 
+}
+
+input[type=submit] {
+    border: 0;
 }
 
 }
