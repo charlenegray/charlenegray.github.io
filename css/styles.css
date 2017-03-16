@@ -157,6 +157,10 @@ main {
     flex-wrap: wrap;
 }
 
+footer {
+   text-align: center;
+}
+
 /* Media Queries */
 
 /* Mobile: 320px = 20em */
