@@ -1,15 +1,42 @@
-#barn {
-    width: 100%;
-    	-webkit-filter: grayscale(0) blur(0);
-	filter: grayscale(0) blur(0);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+/* Container that holds the image and controls the frame of image visibility */
+#image-wrapper {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+/*  Do not leave space for the element  */
+  position: absolute;
 }
 
-#barn:hover {
-   	-webkit-filter: grayscale(100%) blur(1px);
-	filter: grayscale(100%) blur(0px); 
+/* Image inside container */
+#barn {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 100%;
 }
+
+/* Container that holds the heading content */
+#greeting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+/*  Equal height to the container it's positioned relative to - this allows you to center the element vertically */
+  height: 400px;
+/*  Position the greeting relative to the image wrapper - in other words, over it */
+  position: relative;
+}
+
+/* H2 Styles */
+#greeting h2 {
+  font-family: 'Neuton', serif;
+  color: #fff;
+  font-weight: lighter;
+  letter-spacing: .6px;
+  font-size: 5em;
+}
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Neuton');
 
