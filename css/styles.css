@@ -33,7 +33,7 @@
   color: #fff;
   font-weight: lighter;
   letter-spacing: .6px;
-  font-size: 5em;
+  font-size: 3em;
 }
 
 
@@ -53,13 +53,18 @@ h1 {
 
 h2 {
 font-family: 'Neuton', serif;
-font-size: 2em;
+font-size: 1em;
 }
 
 h4 {
     font-family: 'Neuton', serif;
     color: darkslategray;
     font-size: 1.6em;
+}
+
+footer div {
+    align-items: center; 
+    margin: 1em;
 }
 
 
