@@ -69,10 +69,15 @@ footer div {
 
 
 #aboutme {
-    width: 30%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 40%; 
+    position: relative;
+    margin-left: 30%;
+}
+
+p {
+    align-content: center;
+    padding: 1em;
+    display: wrap; 
 }
 
 
