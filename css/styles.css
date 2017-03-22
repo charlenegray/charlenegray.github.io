@@ -40,8 +40,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Neuton');
 
-#cover-photo {}
-
 body {
   font-family: 'Neuton', serif;
 }
@@ -75,16 +73,20 @@ footer div {
 }
 
 p {
-    align-content: center;
-    padding: 1em;
-    display: wrap; 
+    text-align: center;
+    display: block; 
 }
 
+.charbio {
+    padding: 5px 20% 10px 20%;
+}
 
 port {
     flex: column; 
     width: 300%;
     margin: 16m; 
+    display: flex;
+    flex-wrap: wrap;
 }
 
 figure img {
@@ -166,13 +168,22 @@ figure {
     padding: 1em;
     width: 200px;
 }
+
 main {
     display: flex;
     flex-wrap: wrap;
 }
 
+.hi {
+justify-content: center;
+}
+
 footer {
-   text-align: center;
+    text-align: center;
+    padding: 2em;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 
