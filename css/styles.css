@@ -65,7 +65,6 @@ footer div {
     margin: 1em;
 }
 
-
 #aboutme {
     width: 40%; 
     position: relative;
@@ -151,6 +150,7 @@ nav a {
     border-bottom: 1px solid #eee;
     transition: all ease .5s;
 }
+
 nav a:hover {
     opacity: .5;
     transition: all ease .5s;
@@ -159,6 +159,27 @@ nav a:hover {
     opacity: 1;
     color: #777777;
     border-color: #263f40;
+}
+
+.photocap {
+   margin: 1em;
+    justify-content: center;
+    text-decoration: none;
+    color: #bebdbd;
+    font-size: .9em;
+    border-bottom: 1px solid #eee;
+    transition: all ease .5s;
+    display: flex; 
+}
+
+.photocap:hover {
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1em;
+    color: #656035;
+    border-bottom: 1px solid #eee;
+    transition: all ease .5s;
+    display: flex; 
 }
 
 figure {
