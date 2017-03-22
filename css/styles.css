@@ -175,6 +175,13 @@ footer {
    text-align: center;
 }
 
+
+label, input, textarea, form {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 0 0 8px 5px;
+}
+
 /* Media Queries */
 
 /* Mobile: 320px = 20em */
